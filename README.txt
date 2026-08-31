@@ -1,18 +1,26 @@
-Gen1 3D Battle UI Toggle 1.0.1
+BattleUI Toggle
+===============
 
-Options
--------
-HIDE BATTLE ART 3D UI
-  Removes Battle Art Voxel's native HUD, text and Pokemon status panels
-  while leaving the 3D battle scene, Pokemon, camera and animations intact.
+A lightweight compatibility mod for Gen 1 battles using Battle Art and/or
+Stadium 2 Importer.
 
-HIDE STADIUM 2 BATTLE UI
-  Uses Stadium 2 Importer's cooperative battle UI ownership hooks to remove
-  its native status HUD and lower battle UI while leaving the 3D scene intact.
+BattleUI Toggle does not replace the battle renderer or add a new battle
+interface. It only controls the visibility of the native battle UI while
+leaving the battle scene and gameplay active.
 
-Both options are independent and OFF by default.
+OPTION
+------
 
-Compatibility
--------------
-This mod renders nothing and does not alter battle input or battle state.
-It only uses public presentation/ownership hooks exposed by the target mods.
+HIDE BATTLE UI
+
+  Default: OFF
+
+  Hides the supported battle UI supplied by:
+  - Battle Art
+  - Stadium 2 Importer
+
+  The battle field, Pokemon, animations, camera, effects and gameplay remain
+  active.
+
+With the option OFF, the supported battle mods behave normally.
+With the option ON, their native battle interface is hidden.
