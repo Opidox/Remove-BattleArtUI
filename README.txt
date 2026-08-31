@@ -1,4 +1,4 @@
-Gen1 3D Battle UI Toggle 1.1.0
+Gen1 3D Battle UI Toggle 1.0.1
 
 Options
 -------
