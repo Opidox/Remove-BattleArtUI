@@ -18,6 +18,7 @@ HIDE BATTLE UI
   Hides the supported battle UI supplied by:
   - Battle Art
   - Stadium 2 Importer
+  - The world
 
 HIDE TRAINER
 

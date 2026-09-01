@@ -36,8 +36,7 @@ mod.hooks:wrap("battle.bottom_ui_visible", function(next, state)
 end, 1000)
 
 mod.hooks:wrap("battle.overlay", function(next, battle)
-  if enabled() and type(battle) == "table"
-      and battle.stadium2ImporterGen1Shot ~= nil then return end
+  if enabled() then return end
   return next(battle)
 end, 1000)
 
