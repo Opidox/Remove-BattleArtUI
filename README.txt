@@ -19,8 +19,16 @@ HIDE BATTLE UI
   - Battle Art
   - Stadium 2 Importer
 
-  The battle field, Pokemon, animations, camera, effects and gameplay remain
-  active.
+HIDE TRAINER
+
+  Default: OFF
+
+  Hides the trainers sprites supplied by:
+  - Battle Art
+
+
+The battle field, Pokemon, animations, camera, effects and gameplay remain
+active.
 
 With the option OFF, the supported battle mods behave normally.
 With the option ON, their native battle interface is hidden.

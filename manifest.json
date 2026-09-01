@@ -1,7 +1,7 @@
 {
   "id": "3d_battleui_toggle",
   "name": "3D BattleUI Toggle",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "api": 2,
   "entry": "main.lua",
   "profile": "content",
@@ -11,5 +11,5 @@
   ],
   "game_version": "0.0.0-dev || >=0.1.69 <3.0.0",
   "priority": 110,
-  "description": "Add an option to enable/disable combat UI"
+  "description": "Add an option to enable/disable combat UI and Trainers Sprites"
 }
